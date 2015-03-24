@@ -1,0 +1,127 @@
+/* MAIN */
+
+
+body {
+	background-color: #ECF3F7;
+	font-family: 'Questrial', sans-serif;
+	padding-top: 50px; 
+}
+
+h1, h2 {
+	color: tomato;
+	font-family: 'Satisfy', cursive;
+	font-weight: bold;
+	text-align: center;
+	font-size: 5em;
+}
+
+.vertical-text {
+	width: 1em;
+    font-size: 4em;
+    letter-spacing: 1em;
+    word-wrap: break-word;
+    display: inline-block;
+    float: left;
+}
+
+.welcome p {
+	text-align: left;
+	font-size: 1.5em;
+	margin: 0 10% 10% 10%;
+}
+
+.main {
+	margin: 0 15% 15% 15%;
+}
+
+.menu-board {
+	font-size: 1em;
+	/*display: inline;*/
+	/*float: left;*/
+}
+
+.menu-board li {
+	border-bottom: 2px solid white;
+	text-transform: uppercase;
+}
+
+
+.menu-board span {
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li p:nth-of-type(2) {
+	line-height: 30%;
+	text-transform: lowercase;
+}
+
+
+
+
+
+.menu-content {
+	display: inline;
+}
+
+
+/* IMAGES */
+
+div:not(:first-child) img {
+	border: 0.5em solid white;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+	margin: 10% 10%;
+}
+
+
+
+
+
+
+
+
+/* NAVIGATION BAR */
+
+.navbar-brand {
+	font-family: 'Monoton', cursive;
+	font-size: 1.5em;
+	word-spacing: .25em;
+}
+
+.navbar-inverse .navbar-nav>li {
+  text-transform: uppercase;
+}
+
+.navbar-inverse {
+	background-color: white; 
+	border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: tomato;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: tomato;
+}
+.navbar-toggle {
+  background-color: #25373D;
+}
+
+
+
+
+
+
+
