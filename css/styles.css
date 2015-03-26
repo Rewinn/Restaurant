@@ -22,6 +22,7 @@ h1, h2 {
     word-wrap: break-word;
     display: inline-block;
     float: left;
+    margin: 0% 0% 10% 22%;
 }
 
 .welcome p {
@@ -30,14 +31,9 @@ h1, h2 {
 	margin: 0 10% 10% 10%;
 }
 
-/*.main {
-	margin: 0 15% 15% 15%;
-}*/
-
 .menu-board {
+	margin: 10% 25% 10%;
 	font-size: 1em;
-	/*display: inline;*/
-	/*float: left;*/
 }
 
 .menu-board li {
@@ -117,7 +113,7 @@ ul li p:nth-of-type(2) {
 /* SCROLL */
 
 .section {
-	height: 400px;
+	height: 450px;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
