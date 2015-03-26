@@ -30,9 +30,9 @@ h1, h2 {
 	margin: 0 10% 10% 10%;
 }
 
-.main {
+/*.main {
 	margin: 0 15% 15% 15%;
-}
+}*/
 
 .menu-board {
 	font-size: 1em;
@@ -62,32 +62,23 @@ ul li p:nth-of-type(2) {
 
 
 
-
+/*
 .menu-content {
 	display: inline;
-}
+}*/
 
 
 /* IMAGES */
 
-div:not(:first-child) img {
+/*div:not(:first-child) img {
 	border: 0.5em solid white;
 }
 
-.center-block {
+/*.center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-ul {
-	margin: 10% 10%;
-}
-
-
-
-
-
+}*/
 
 
 
@@ -118,6 +109,93 @@ ul {
 .navbar-toggle {
   background-color: #25373D;
 }
+
+
+
+
+
+/* SCROLL */
+
+.section {
+	height: 400px;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section.content {
+	height: 400px;
+	background-color: #ECF3F7;
+}
+
+.section.photo_1 {
+   	background-image: url(../img/breakfast.jpg); 
+}
+
+.section.photo_2 {
+   	background-image: url(../img/lunch.jpg); 
+}
+
+.section.photo_3 {
+   	background-image: url(../img/supper.jpg); 
+}
+
+.section.photo_4 {
+   	background-image: url(../img/dessert.jpg); 
+}
+
+/* FOOTER */
+footer { 
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	height: 100px;
+	width: 100%;
+	padding-bottom: 50px;
+    display: block;
+    background: #033649;
+    color: #ECF3F7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
