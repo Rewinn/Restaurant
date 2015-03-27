@@ -17,8 +17,8 @@ h1, h2 {
 
 .welcome {
 	display: flex;
-  	justify-content: center;
-  	flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
 	
 .welcome p {
@@ -28,7 +28,6 @@ h1, h2 {
 }
 
 .menu-board {
-	padding-top: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -50,13 +49,30 @@ ul li p:nth-of-type(2) {
 
 .vertical-text {
 	width: 0.5em;
-    font-size: 4.5em;
+    font-size: 4em;
     letter-spacing: 1em;
     word-wrap: break-word;
     float: left;
     margin-top: -15px;
 }
 
+
+
+/*
+ul {
+  border: 1px solid red;
+  display: inline-block;
+  line-height: 100px;
+  list-style-type: none;
+  text-align: center;
+  width: 200px;
+}
+li {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+*/
 
 
 
@@ -151,18 +167,71 @@ ul li p:nth-of-type(2) {
    	background-image: url(../img/dessert.jpg); 
 }
 
+.section.photo_5 {
+   	background-image: url(../img/interior.jpeg); 
+}
 
 
 
 
 /* FOOTER */
 
-footer { 
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-    background-color: #033649;
-    color: #ECF3F7;
-  	height: 150px;
+footer {
+  background: #ECF3F7;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-transform: uppercase;
+
 }
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.icons a {
+  text-align: center;
+  padding: 1em 0;
+  color: tomato;
+  background-color: white;
+  border-radius: 50%;
+  height: 50px; 
+  width: 50px;
+}
+
+
+.icons a:hover {
+  background: tomato;
+  color: white;
+}
+
+.contact {
+  color: #333F52;
+  text-align: center;
+  /*line-height: 100%;*/
+}
+
+address {
+  margin: 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
