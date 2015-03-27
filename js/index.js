@@ -1,5 +1,3 @@
-// CUSTOM THEME JAVASCRIPT
-  
 $(document).ready(function() {
   $("img").unveil();
 });
