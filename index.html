@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="content-type" content="text/html">
-        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <title>Bistro Henry | Logan Square</title>
         <meta name="description" content="Open daily from 8 to 10, Henry's Bistro is located in Chicago's Logan Square neighborhood.">
         <meta name="keywords" content="breakfast, coffee, vegan, vegetarian, lunch, brunch, organic, Chicago, Logan Square">
@@ -19,6 +18,7 @@
 
         <!-- CUSTOM CSS -->
         <link href="./css/styles.css" rel="stylesheet">
+        <link href="./css/media-queries.css" rel="stylesheet">
 
         <!-- FONTS -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -52,29 +52,30 @@
             <div>
                 <img src="./img/restaurant.jpg" alt="restaurant exterior" class="img-responsive">
             </div>
-            <div class="welcome section content">
+            <div class="welcome content">
                 <h1>Welcome</h1>
                 <p>We love great food, so that's all we serve at Henry's. We believe that natural food tastes better and is better for us. Fresh, natural ingredients are the foundation of our menu, which is why we always serve organic produce from local farmers and free range meats and poultry.</p>
             </div>
         </div>
         <div class="section photo_1"></div>
-        <section id="brunch" class="content">
+        <div class="anchor" id="brunch"></div>
+        <section class="content">
             <div class="menu-board">
                 <h2 class="vertical-text">Brunch</h2>
                 <ul>
-                    <li>croissant<span>$4.00</span></li>
-                    <li>frangipane croissant<span>$5.00</span></li>
-                    <li>yogurt &amp; seasonal berries<span>$5.00</span></li>
-                    <li>cinnamon sugar bun<span>$4.00</span></li>
-                    <li>buttermilk scone<span>$3.50</span></li>
-                    <li>croissant<span>$4.00</span></li>
-                    <li>buttermilk currant scone<span>$3.50</span></li>
-                    <li>quiche by the slice<span>$5.50</span></li>
+                    <li>croissant<span>$4</span></li>
+                    <li>frangipane croissant<span>$5</span></li>
+                    <li>yogurt &amp; seasonal berries<span>$5</span></li>
+                    <li>cinnamon sugar bun<span>$4</span></li>
+                    <li>buttermilk scone<span>$3</span></li>
+                    <li>croissant<span>$4</span></li>
+                    <li>buttermilk currant scone<span>$3</span></li>
+                    <li>quiche by the slice<span>$6</span></li>
                 </ul> 
             </div> 
         </section>
         <div class="section photo_2"></div>
-        </div>
+        <div class="anchor" id="lunch"></div>
         <section id="lunch" class="content">
             <div class="menu-board">
                 <h2 class="vertical-text">Lunch</h2>
@@ -89,27 +90,28 @@
                     </li>
                     <li>
                         <p>Pecorino &amp; Almond<span>$13</span></p>   
-                        <p><small>With olive oil, lemon and sage</small></p>           
+                        <p><small>olive oil, lemon and sage spread</small></p>           
                     </li>
                     <li>
                         <p>Mozzarella &amp; Tapenade<span>$12</span></p>
                         <p><small>Fresh mozzarella with niçoise and anchovy puree</small></p>
                     </li>
                     <li>
-                        <p>Fried Chicken<span>$14</span></p>  
-                        <p><small>Free range chicken with coleslaw</small></p>
+                        <p>Fried Chicken Sandwich<span>$14</span></p>  
+                        <p><small>Free range chicken, coleslaw, brioche bun</small></p>
                     </li>
                 </ul>
             </div>
         </section>
         <div class="section photo_3"></div>
-        <section id="supper" class="content">
+        <div class="anchor" id="supper"></div>
+        <section class="content">
             <div class="menu-board">
                 <h2 class="vertical-text">Supper</h2>
                 <ul>
                     <li>
                         <p>Pasta Norma<span>$22</span></p>
-                        <p><small>local eggplant, roasted cherry tomatoes, basil, ricotta salata</small></p>
+                        <p><small>local eggplant, roasted cherries, ricotta salata</small></p>
                     </li>
                     <li>
                         <p>House Made Gnocchi<span>$22</span></p>
@@ -121,7 +123,7 @@
                     </li>
                     <li>
                         <p>Roasted Chicken<span>$25</span></p>
-                        <p><small>herb whipped yukon gold, roasted carrots, broccoli, prunes</small></p>
+                        <p><small>whipped yukon golds, carrots, broccoli, prunes</small></p>
                     </li>
                     <li>
                         <p>Hanger Steak<span>$27</span></p>
@@ -131,18 +133,19 @@
             </div>
         </section>
         <div class="section photo_4"></div>
-        <section id="dessert" class="content">
+        <div class="anchor" id="dessert"></div>
+        <section class="content">
             <div class="menu-board">
                 <h2 class="vertical-text">Sweets</h2>
                 <ul>
-                    <li>Macarons<span>$0.95</span></li>
-                    <li>Chocolate Chip Cookie<span>$0.95</span></li>
-                    <li>Chocolate Salted Rye<span>$2.95</span></li>
-                    <li>Red Velvet Cupcake<span>$2.95</span></li>
-                    <li>Oatmeal Whoopie Pie<span>$2.95</span></li>
-                    <li>Shortbread Pie<span>$3.95</span></li>
-                    <li>Banana Cream Pie<span>$4.95</span></li>
-                    <li>Hummingbird Cake<span>$4.95</span></li>
+                    <li>Macarons<span>$2</span></li>
+                    <li>Chocolate Chip Cookie<span>$2</span></li>
+                    <li>Chocolate Salted Rye<span>$3</span></li>
+                    <li>Red Velvet Cupcake<span>$3</span></li>
+                    <li>Oatmeal Whoopie Pie<span>$3</span></li>
+                    <li>Shortbread Pie<span>$4</span></li>
+                    <li>Banana Cream Pie<span>$5</span></li>
+                    <li>Hummingbird Cake<span>$5</span></li>
                 </ul>
             </div>
         </section>
