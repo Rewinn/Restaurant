@@ -3,11 +3,15 @@
 
 
 /* MAIN */
+html {
+  font-size: 16px;
+}
+
 body {
     background-color: #ECF3F7;
     font-family: 'Questrial', sans-serif;
     color: #333F52; 
-    padding-top: 10px; 
+    padding-top: 70px; 
 }
 
 h1, h2 {
@@ -15,7 +19,7 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
     font-weight: bold;
     text-align: center;
-    font-size: 6em;
+    font-size: 6.5rem;
     margin: 0 0;
 }
 
@@ -33,8 +37,12 @@ ul li, footer {
 
 .logo {
     font-family: 'Monoton', cursive;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     word-spacing: .25em;
+}
+
+li {
+  font-size: .75rem;
 }
 
 .nav li a {
@@ -47,7 +55,7 @@ ul li, footer {
 }
 
 .navbar {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .navbar-nav>li {
@@ -78,23 +86,23 @@ ul li, footer {
 
 .section {
     height: 575px;
-    background-position: center center;
+    background-position: bottom center;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .photo_1 {
-	background-image: url(../img/pancakes.jpg); 
+	background-image: url(../img/porridge.jpg); 
     background-color: #FFE500;
 }
 
 .photo_2 {
-	background-image: url(../img/fried_chicken_sandwich.jpg); 
+	background-image: url(../img/sandwich.jpg); 
     background-color: #B9C3C4;
 }
 
 .photo_3 {
-	background-image: url(../img/chicken_dinner.jpg); 
+	background-image: url(../img/stew.jpg); 
     background-color: #E9EAD9;
 }
 
@@ -112,10 +120,22 @@ ul li, footer {
 
 /* CONTENT SECTION */
 
+img.img-responsive {
+    min-width: 100%;
+}
+
 .welcome p {
     margin: 0% 10%;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1rem;
+}
+
+.welcome-info {
+    display: none;
+}
+
+.welcome-icons {
+    display: none;
 }
 
 .content {
@@ -124,15 +144,45 @@ ul li, footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 400px;
     background-color: #ECF3F7;
+    padding: 50px 0px;
 }
 
 .menu-board {
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.menu-board li {
+    border-bottom: 2px solid white;
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.vertical-text {
+    width: 1rem;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    word-wrap: break-word;
+    float: left;
+    padding-top: 15px;
+    padding-right: 45px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  line-height: inherit;
+}
+
+ul li span {
+    padding-left: 120px;
+    float: right;
 }
 
 ul li p:nth-of-type(2) {
@@ -140,26 +190,6 @@ ul li p:nth-of-type(2) {
     margin-top: -10px;
     margin-bottom: 0;
     width: 100%;
-}
-
-.menu-board li {
-    border-bottom: 2px solid white;
-    list-style-type: none;
-    line-height: 30px;
-}
-
-.vertical-text {
-    width: 1.0em;
-    font-size: 4em;
-    letter-spacing: 1em;
-    word-wrap: break-word;
-    float: left;
-    padding-top: 15px;
-}
-
-ul li span {
-    padding-left: 120px;
-    float: right;
 }
 
 
@@ -170,10 +200,13 @@ ul li span {
 footer {
     background: #ECF3F7;
     height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 75%;
     text-align: center;
+}
+
+footer p {
+    margin: 10px 10px;
 }
 
 .icons {
@@ -201,16 +234,58 @@ address {
     margin: 0 0;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+    .welcome.content {
+      padding: 40px 0px;
+    }
 
+    .welcome-info {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
 
+    .welcome-info address {
+        padding: 30px 0px;
+    }
 
-
-/*
-.anchor{
-  display: block;
-  height: 50px; /*same height as header
-  margin-top: -50px; /*same height as header
-  visibility: hidden;
+    .welcome-info p {
+        padding: 10px 0px;
+        text-align: center;
+    }
 }
 
+@media screen and (max-width: 360px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : portrait) {
+    h1 {
+      font-size: 5rem;
+      padding: 25px 0px;
+    }
 
+    ul li span {
+    padding-left: 30px;
+    }
+
+    footer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
+    h1 {
+      font-size: 5rem;
+    }
+
+    ul.supper-menu span {
+        padding-left: 20px;
+    }
+
+    ul.lunch-menu span {
+        padding-left: 10px;
+    }
+
+    footer {
+        width: 95%;
+    }
+}
