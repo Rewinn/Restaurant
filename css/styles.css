@@ -1,8 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Questrial|Monoton|Satisfy);
 
-
-
-/* MAIN */
 html {
   font-size: 16px;
 }
@@ -20,7 +17,7 @@ h1, h2 {
     font-weight: bold;
     text-align: center;
     font-size: 6.5rem;
-    margin: 0 0;
+    margin: 0 0 25px 0;
 }
 
 ul li, footer {
@@ -37,13 +34,15 @@ ul li, footer {
 
 .logo {
     font-family: 'Monoton', cursive;
-    font-size: 2.5rem;
-    word-spacing: .25em;
+    font-size: 2rem;
+    word-spacing: .25rem;
+    color: tomato;
 }
 
 li {
   font-size: .75rem;
 }
+
 
 .nav li a {
     padding: 10px 10px;
@@ -80,6 +79,11 @@ li {
     background-color: #25373D;
 }
 
+.navbar-collapse {
+  padding-right: 0px; 
+  padding-left: 0px;
+}
+
 
 
 /*IMAGE SCROLL*/
@@ -92,36 +96,48 @@ li {
 }
 
 .photo_1 {
-	background-image: url(../img/porridge.jpg); 
-    background-color: #FFE500;
+    background-image: url(../img/sheep.jpg); 
+    background-color: #1B4652;
 }
 
 .photo_2 {
-	background-image: url(../img/sandwich.jpg); 
+    background-image: url(../img/sandwich.jpg); 
     background-color: #B9C3C4;
 }
 
 .photo_3 {
-	background-image: url(../img/stew.jpg); 
+    background-image: url(../img/stew.jpg); 
     background-color: #E9EAD9;
 }
 
 .photo_4 {
-	background-image: url(../img/cookies.jpg); 
+    background-image: url(../img/cookies.jpg); 
     background-color: #EAFDE6;
 }
 
 .photo_5 {
-    background-image: url(../img/interior.jpeg); 
-    background-color: #1B4652;
+    background-image: url(../img/porridge.jpg); 
+    background-color: #FFE500;
+}
+
+.photo_6 {
+    background-image: url(../img/interior.jpg); 
+    background-color: #FFE500;
 }
 
 
 
 /* CONTENT SECTION */
 
-img.img-responsive {
-    min-width: 100%;
+.table>tbody>tr>td {
+  border-top: 2px solid white;
+  padding: 5px 10px;
+}
+
+@-moz-document url-prefix() {
+  fieldset { 
+    display: table-cell; 
+    }
 }
 
 .welcome p {
@@ -234,7 +250,7 @@ address {
     margin: 0 0;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES 
 @media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
     .welcome.content {
       padding: 40px 0px;
@@ -255,6 +271,7 @@ address {
         padding: 10px 0px;
         text-align: center;
     }
+
 }
 
 @media screen and (max-width: 360px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : portrait) {
@@ -288,4 +305,7 @@ address {
     footer {
         width: 95%;
     }
-}
+}  
+
+
+*/
