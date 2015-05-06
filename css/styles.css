@@ -2,6 +2,8 @@
 
 html {
   font-size: 16px;
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -96,6 +98,7 @@ li {
 }
 
 .photo_1 {
+<<<<<<< HEAD
     background-image: url(../img/sheep.jpg); 
     background-color: #1B4652;
 }
@@ -116,19 +119,43 @@ li {
 }
 
 .photo_5 {
+=======
+	background-image: url(../img/sandwich.jpg); 
+    background-color: #B9C3C4;
+}
+
+.photo_2 {
+	background-image: url(../img/stew.jpg); 
+    background-color: #E9EAD9;
+}
+
+.photo_3 {
+	background-image: url(../img/cookies.jpg); 
+    background-color: #EAFDE6;
+}
+
+.photo_4 {
+>>>>>>> origin/master
     background-image: url(../img/porridge.jpg); 
     background-color: #FFE500;
 }
 
+<<<<<<< HEAD
 .photo_6 {
     background-image: url(../img/interior.jpg); 
     background-color: #FFE500;
+=======
+#photo_5 {
+    background-image: url(../img/interior.jpeg); 
+    background-color: #1B4652;
+>>>>>>> origin/master
 }
 
 
 
 /* CONTENT SECTION */
 
+<<<<<<< HEAD
 .table>tbody>tr>td {
   border-top: 2px solid white;
   padding: 5px 10px;
@@ -140,6 +167,8 @@ li {
     }
 }
 
+=======
+>>>>>>> origin/master
 .welcome p {
     margin: 0% 10%;
     text-align: left;
