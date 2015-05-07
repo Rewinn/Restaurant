@@ -97,65 +97,10 @@ li {
     background-size: cover;
 }
 
-.photo_1 {
-<<<<<<< HEAD
-    background-image: url(../img/sheep.jpg); 
-    background-color: #1B4652;
-}
-
-.photo_2 {
-    background-image: url(../img/sandwich.jpg); 
-    background-color: #B9C3C4;
-}
-
-.photo_3 {
-    background-image: url(../img/stew.jpg); 
-    background-color: #E9EAD9;
-}
-
-.photo_4 {
-    background-image: url(../img/cookies.jpg); 
-    background-color: #EAFDE6;
-}
-
-.photo_5 {
-=======
-	background-image: url(../img/sandwich.jpg); 
-    background-color: #B9C3C4;
-}
-
-.photo_2 {
-	background-image: url(../img/stew.jpg); 
-    background-color: #E9EAD9;
-}
-
-.photo_3 {
-	background-image: url(../img/cookies.jpg); 
-    background-color: #EAFDE6;
-}
-
-.photo_4 {
->>>>>>> origin/master
-    background-image: url(../img/porridge.jpg); 
-    background-color: #FFE500;
-}
-
-<<<<<<< HEAD
-.photo_6 {
-    background-image: url(../img/interior.jpg); 
-    background-color: #FFE500;
-=======
-#photo_5 {
-    background-image: url(../img/interior.jpeg); 
-    background-color: #1B4652;
->>>>>>> origin/master
-}
-
 
 
 /* CONTENT SECTION */
 
-<<<<<<< HEAD
 .table>tbody>tr>td {
   border-top: 2px solid white;
   padding: 5px 10px;
@@ -167,8 +112,6 @@ li {
     }
 }
 
-=======
->>>>>>> origin/master
 .welcome p {
     margin: 0% 10%;
     text-align: left;
@@ -246,7 +189,7 @@ footer {
     background: #ECF3F7;
     height: 150px;
     margin: 0 auto;
-    width: 75%;
+    width: 100%;
     text-align: center;
 }
 
@@ -255,19 +198,18 @@ footer p {
 }
 
 .icons {
-    display: flex;
-    justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
-}
+} 
 
 .icons a {
-    padding: 1em 0;
-    color: tomato;
     background-color: white;
+    padding: 1em 0;
+    margin: 0 2em;
+    color: tomato;
     border-radius: 50%;
-    height: 50px; 
-    width: 50px;
+    height: 70px; 
+    width: 70px;
 }
 
 .icons a:hover {
@@ -278,63 +220,3 @@ footer p {
 address {
     margin: 0 0;
 }
-
-/* MEDIA QUERIES 
-@media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
-    .welcome.content {
-      padding: 40px 0px;
-    }
-
-    .welcome-info {
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 1rem;
-    }
-
-    .welcome-info address {
-        padding: 30px 0px;
-    }
-
-    .welcome-info p {
-        padding: 10px 0px;
-        text-align: center;
-    }
-
-}
-
-@media screen and (max-width: 360px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : portrait) {
-    h1 {
-      font-size: 5rem;
-      padding: 25px 0px;
-    }
-
-    ul li span {
-    padding-left: 30px;
-    }
-
-    footer {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
-    h1 {
-      font-size: 5rem;
-    }
-
-    ul.supper-menu span {
-        padding-left: 20px;
-    }
-
-    ul.lunch-menu span {
-        padding-left: 10px;
-    }
-
-    footer {
-        width: 95%;
-    }
-}  
-
-
-*/
