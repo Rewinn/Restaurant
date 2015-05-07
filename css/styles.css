@@ -97,6 +97,35 @@ li {
     background-size: cover;
 }
 
+.section.content {
+    height: 400px;
+    background-color: #ECF3F7;
+}
+
+.section.photo_1 {
+    background-image: url(../img/sheep.jpg); 
+}
+
+.section.photo_2 {
+    background-image: url(../img/sandwich.jpg); 
+}
+
+.section.photo_3 {
+    background-image: url(../img/stew.jpg); 
+}
+
+.section.photo_4 {
+    background-image: url(../img/cookies.jpg); 
+}
+
+.section.photo_5 {
+    background-image: url(../img/porridge.jpg); 
+}
+
+.section.photo_6 {
+    background-image: url(../img/interior.jpg); 
+}
+
 
 
 /* CONTENT SECTION */
