@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Questrial|Monoton|Satisfy);
 
 html {
-    height: 100%;
     width: 100%;
 }
 
@@ -9,7 +8,10 @@ body {
     background-color: #ECF3F7;
     padding-top: 70px; 
     font-family: 'Questrial', sans-serif;
+    height: 100%;
+    width: 100%;
     color: #333F52; 
+    margin: 0px;
 }
 
 h1, h2 {
