@@ -16,7 +16,7 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
     font-weight: bold;
     text-align: center;
-    font-size: 6.5rem;
+    font-size: 6.5vmax;
     margin: 0 0 25px 0;
     color: tomato;
 }
@@ -35,13 +35,13 @@ td, ul li, footer {
 
 .logo {
     font-family: 'Monoton', cursive;
-    font-size: 2rem;  /*think I will remove and work with vmax */                           
-    word-spacing: .25rem; /*think I will remove and work with vmax */
+    font-size: 2.5vmax;  /*need to double check */                           
+    word-spacing: .25em; /*need to double check  */
     color: tomato;
 }
 
 li {
-    font-size: .75rem; /*think I will remove and work with vmax */
+    font-size: 2vh;
 }
 
 
@@ -143,7 +143,7 @@ li {
 .welcome p {
     margin: 0% 10%;
     text-align: left;
-    font-size: 1rem;
+    font-size: 2vmax;
 }
 
 .welcome-info {
@@ -175,13 +175,13 @@ li {
 .menu-board li {
     border-bottom: 2px solid white;
     list-style-type: none;
-    padding-top: 1rem;
+    padding-top: 1em;
 }
 
 .vertical-text {
-    width: 1rem;
-    font-size: 3rem;
-    letter-spacing: 1rem;
+    width: 1px;
+    font-size: 5vh;
+    letter-spacing: 1em;
     word-wrap: break-word;
     float: left;
     padding-top: 15px;
