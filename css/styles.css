@@ -35,13 +35,13 @@ li, footer {
 .logo {
     font-family: 'Monoton', cursive;
     padding-left: 10px;
-    font-size: 5vmax;                       
+    font-size: 4.5vmax;                       
     word-spacing: .25em; 
     color: tomato;
 }
 
 li {
-    font-size: 2vmax;
+    font-size: 1.25vmax;
 }
 
 
@@ -252,8 +252,7 @@ address {
 
 @media(max-width:767px){
     ul li span {
-        padding-left: 70px;
-        float: right;
+        padding-left: 60px;
     }
 
     .welcome.content {
