@@ -39,7 +39,7 @@ $(function() {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
-                var top_offset = 0;
+                var top_offset = $('div.navbar-inverse').height();
                 if ( $('.site-header').css('position') == 'fixed' ) {
                     top_offset = $('.site-header').height();
                 }

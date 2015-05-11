@@ -23,12 +23,12 @@ h1, h2 {
     color: tomato;
 }
 
-td, ul li, footer {
+li, footer {
     text-transform: uppercase;
 }
 
-td {
-    font-size: 2.5vw;
+.suppliers li {
+    text-decoration: none;
 }
 
 
@@ -41,8 +41,8 @@ td {
 
 .logo {
     font-family: 'Monoton', cursive;
-    font-size: 2.5vmax;  /*need to double check */                           
-    word-spacing: .25em; /*need to double check  */
+    font-size: 2.5vmax;                       
+    word-spacing: .25em; 
     color: tomato;
 }
 
@@ -61,7 +61,7 @@ li {
 }
 
 .navbar {
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .navbar-nav>li {
@@ -155,17 +155,6 @@ ul li p:nth-of-type(2) {
     width: 100%;
 }
 
-.table>tbody>tr>td {
-    border-top: 2px solid white;
-    padding: 5px 10px;
-}
-
-@-moz-document url-prefix() {
-    fieldset { 
-        display: table-cell; 
-    }
-}
-
 .welcome p {
     margin: 0% 10%;
     text-align: left;
@@ -206,7 +195,7 @@ ul li p:nth-of-type(2) {
 
 .vertical-text {
     width: 1px;
-    font-size: 5vh;
+    font-size: 7vh;
     letter-spacing: .5em;
     word-wrap: break-word;
     float: left;
@@ -251,7 +240,21 @@ address {
 /* MEDIA QUERIES */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    ul li span {
+        padding-left: 50px;
+        float: right;
+    }
+
+    .vertical-text {
+        padding-right: 40px;
+    }
+
     .icons a {
         margin: 0 1.25em;
     }
 }
+
+/*
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    
+} */
