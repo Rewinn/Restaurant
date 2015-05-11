@@ -27,6 +27,10 @@ td, ul li, footer {
     text-transform: uppercase;
 }
 
+td {
+    font-size: 2.5vw;
+}
+
 
 
 /* NAVIGATION BAR */
@@ -131,6 +135,26 @@ li {
 
 /* CONTENT SECTION */
 
+ul {
+    padding-left: 0px;
+}
+
+li {
+    line-height: inherit;
+}
+
+ul li span {
+    padding-left: 120px;
+    float: right;
+}
+
+ul li p:nth-of-type(2) {
+    text-transform: lowercase;
+    margin-top: -10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
 .table>tbody>tr>td {
     border-top: 2px solid white;
     padding: 5px 10px;
@@ -183,31 +207,11 @@ li {
 .vertical-text {
     width: 1px;
     font-size: 5vh;
-    letter-spacing: 1em;
+    letter-spacing: .5em;
     word-wrap: break-word;
     float: left;
     padding-top: 15px;
     padding-right: 45px;
-}
-
-ul {
-    padding-left: 0px;
-}
-
-li {
-    line-height: inherit;
-}
-
-ul li span {
-    padding-left: 120px;
-    float: right;
-}
-
-ul li p:nth-of-type(2) {
-    text-transform: lowercase;
-    margin-top: -10px;
-    margin-bottom: 0;
-    width: 100%;
 }
 
 
@@ -216,29 +220,27 @@ ul li p:nth-of-type(2) {
 
 footer {
     background: #ECF3F7;
-    height: 150px;
+    text-align: center;
     margin: 0 auto;
     width: 100%;
-    text-align: center;
 }
 
 footer p {
     margin: 10px 10px;
 }
 
+address {
+    margin: 0 0;
+}
+
 .icons {
-    padding-top: 20px;
-    padding-bottom: 20px;
-} 
+  padding: 15px 0;
+}
 
 .icons a {
-    background-color: white;
     padding: 1em 0;
     margin: 0 2em;
     color: tomato;
-    border-radius: 50%;
-    height: 70px; 
-    width: 70px;
 }
 
 .icons a:hover {
@@ -246,6 +248,10 @@ footer p {
     color: white;
 }
 
-address {
-    margin: 0 0;
+/* MEDIA QUERIES */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .icons a {
+        margin: 0 1.25em;
+    }
 }
