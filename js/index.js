@@ -1,6 +1,5 @@
 $(document).ready(function() {
-  $("img").unveil();
-});
+  //$("img").unveil();
   
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
@@ -50,3 +49,4 @@ $(function() {
             }
         }
     }); 
+});
