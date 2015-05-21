@@ -1,6 +1,6 @@
-html {
+/*html {
     width: 100%;
-}
+}*/
 
 body {
     background-color: #ECF3F7;
@@ -32,6 +32,10 @@ li, footer {
     color: #3A465A;
 }
 
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: tomato;
+}
+
 .logo {
     font-family: 'Monoton', cursive;
     padding-left: 10px;
@@ -49,7 +53,7 @@ li {
 }
 
 .navbar-nav {
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
 }
 
@@ -179,7 +183,15 @@ ul li p:nth-of-type(2) {
     justify-content: center;
     align-items: center;
     align-content: center;
-} */
+} 
+
+
+
+
+
+*/
+
+
 
 .menu-board {
      display: -webkit-box;
@@ -218,14 +230,6 @@ ul li p:nth-of-type(2) {
 
 
 
-
-
-
-
-
-
-
-
 .menu-board li {
     border-bottom: 2px solid white;
     list-style-type: none;
@@ -235,7 +239,7 @@ ul li p:nth-of-type(2) {
 .vertical-text {
     width: 1px;
     font-size: 4em;
-    word-wrap: break-word;
+    overflow-wrap: break-word;
     float: left;
     padding-right: 1em;
 }
@@ -301,28 +305,62 @@ footer .icons {
   color: #00cdcd;
 }
 
-/* MEDIA QUERIES */
-
-@media only screen  
-    and (max-device-width: 1024px) {
-        .icons {
-            width: 100%;
-            margin: 0 auto;
-        }
-
-.icons a {
-            margin: 20px;
-        }
+.device-img {
+    display: none;
 }
 
-@media only screen  
-    and (max-device-width: 768px) {
-        .logo {
-            font-size: 2.5em;                       
-        }
+/* MEDIA QUERIES */
 
-        .icons a {
-            margin: 10px;
-        }
+@media only screen  and (max-device-width: 1024px) {
+    .icons {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .icons a {
+        margin: 20px;
+    }
+
+    .device-img {
+        display: block;
+    }
+
+    img.img-responsive {
+        width: 100%;
+    }
+
+    .section {
+        display: none;
+    }
+}
+
+@media only screen  and (max-device-width: 767px) {
+    h1 {
+        font-size: 4em;
+    }
+    .logo {
+        font-size: 2em;
+        color: tomato;                       
+    }
+
+    .icons a {
+        margin: 10px;
+        padding: 5px;
+    }
+    ul li span {
+        padding-left: 0px; 
+    }
+
+    .vertical-text {
+        width: 100%;
+        overflow-wrap: normal;
+        padding-right: 0px; 
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menu-board {
+        display: block;
+        padding-bottom: 25px;
+    }
 }
 
